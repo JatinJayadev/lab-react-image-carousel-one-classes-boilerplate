@@ -47,21 +47,19 @@ class Carousel extends Component {
         return (
             <div className="container">
 
-                <div className="arrows">
-                    <ArrowBackIosIcon onClick={this.handleBackClick} />
-                </div>
+                <ArrowBackIosIcon className="arrows" onClick={this.handleBackClick} />
 
-                <div>
+                <div className="details" >
                     <div>
                         <h2>{data.title}</h2>
+                    </div>
+                    <div>
                         <h3>{data.subtitle}</h3>
-                        <img src={data.img} alt="" />
                     </div>
                 </div>
+                <img src={data.img} alt="" />
 
-                <div  className="arrows" >
-                    <ArrowForwardIosIcon onClick={this.handleForwardClick} />
-                </div>
+                <ArrowForwardIosIcon className="arrows" onClick={this.handleForwardClick} />
 
             </div>
         )

@@ -4,7 +4,35 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.852);
+    background-color: rgb(0 0 0 / 45%);
+    /* height:70vh ;
+    width:70vh ; */
 }
-/* img{
-} */
+
+img{
+    height: 80vh;
+}
+
+.details{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 15px;
+}
+.details>div>h2,h3{
+    background-color: #ffffff82;
+    padding: 1vh;
+    margin: 2vh;
+    border-radius: 1vh;
+    width: 40vh;
+    text-align: center;
+}

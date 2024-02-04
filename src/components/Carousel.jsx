@@ -56,8 +56,9 @@ class Carousel extends Component {
                     <div>
                         <h3>{data.subtitle}</h3>
                     </div>
+
                 </div>
-                
+
                 <img src={data.img} alt="" />
 
                 <ArrowForwardIosIcon className="arrows" onClick={this.handleForwardClick} />
